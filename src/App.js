@@ -28,7 +28,7 @@ function App() {
               imgURL={item.imgURL}
               title={item.title}
               price={item.price}
-              inStock={item.inStock}
+              inStock={item.inStock ? "" : "STOKTA YOK"}
             />
           )}
         />
