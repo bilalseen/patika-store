@@ -40,6 +40,7 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     marginTop: 50,
+    marginBottom: 150,
   },
   header: {
     padding: 10,

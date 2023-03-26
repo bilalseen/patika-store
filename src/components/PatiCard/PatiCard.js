@@ -7,7 +7,7 @@ const PatiCard = (props) => {
     <View style={styles.container}>
       <View style={styles.body}>
         <View style={styles.top}>
-          <Image style={styles.tinyLogo} source={{ uri: props.imgURL }} />
+          <Image style={styles.image} source={{ uri: props.imgURL }} />
         </View>
         <View style={styles.bottom}>
           <Text style={styles.title}>{props.title}</Text>
